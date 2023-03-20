@@ -414,18 +414,39 @@ logo = ("""\033[1;32m
  ##:::. ##:'####:::: ##:::: ##:::: ##: ########::
 ..:::::..::....:::::..:::::..:::::..::........:::
  \033
-__________________×______________________
-  
-  Owner   : Riyad Chowdhury 
- 
-  Github   : ............ 
+    \033[1;37m \033[1;36m\033[1;37m═\033[44m\033[1;37m[ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐦𝐲 𝐰𝐨𝐫𝐥𝐝🌍 ]\x1b[0m═\033[1;36m\033[1;37m
+    
+\033[1;37m╔\033[1;36m════\033[1;37m═══════════════════\033[1;36mRIFAT✯RITU\033[1;37m═════════════════\033[1;36m════\033[1;37m╗
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴀᴜᴛʜᴏʀ]\033[1;31m  ➟  \033[1;32mRiyad Chowdhury          \033[1;31m       │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ꜰᴀᴄᴇʙᴏᴏᴋ]\033[1;31m➟  \033[1;32Riyad卝Chowdhuryヅ          \033[1;31m      │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ɢɪᴛʜᴜʙ]\033[1;31m  ➟ \033[1;32m Riyad Chowdhury                 \033[1;31m        │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ʏᴏᴜᴛᴜʙᴇ]\033[1;31m ➟  \033[1;32mRiyad Chowdhury                  \033[1;31m        │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴠᴇʀꜱᴏɴ]\033[1;31m  ➟  \033[1;32m1.0                          \033[1;31m      │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ɢʀᴏᴜᴘ]\033[1;31m   ➟  \033[1;32mR1F4T TERMUX COMMAND \033[1;37m {\033[1;36mR1F4T\033[1;37m} \033[1;31m     │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴡʜᴀᴛꜱᴀᴘᴘ]\033[1;31m➟  \033[1;32m01319632037\033[1;37m \033[1;36m \033[1;37m \033[1;31m                     │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ɴᴇᴛᴡᴏʀᴋ]\033[1;31m ➟  \033[1;32m3G,4G,5G \033[1;37m {\033[1;36mON Mobile Data\033[1;37m} \033[1;31m        │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴄᴏɴᴛᴀᴄᴛ]\033[1;31m ➟  \033[1;32mmehedi2211hasan@gmail.com\033[1;37m \033[1;36m\033[1;37m \033[1;31m │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴛᴏᴏʟꜱ]\033[1;31m   ➟  \033[1;32mPAK RANDOM CLONING \033[1;37m  \033[1;31m              │
+\033[1;37m╚\033[1;36m════\033[1;37m═════\033[41m\033[1;37m[ 𝙉𝙖 𝙭𝙪𝙙𝙞 𝙁𝙢𝙯 𝙉𝙖 𝙭𝙪𝙙𝙞 𝘾𝙚𝙡𝙚𝙗𝙧𝙞𝙩𝙮🖕 ]\x1b[0m═════\033[1;36m═════\033[1;37m╝
 
-  Facebook :..... 
-  
-  Youtube : riyad Chowdhury 
-  
-  Contact : +8801319632037
-__________________×______________________\033[1;37m""")
+\033[1;31m========================================================"""
+
+		import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+      username = input('ENTER USERNAME :')
+      password = input('ENTER PASSWORD :')
+      
+      if username == 'Riyad' and password == 'Riyad2740':
+         print('You Have Successfully Logged in.')
+         break 
+      else:
+          print('inccrect plasse type')
+          attemps += 1
+          continue 
+os.system('clear')
 
 class Main:
 	def __init__(self):
@@ -435,34 +456,30 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("\n [1] File Cloning")
-		print(" [2] Public Cloning")
-		print(" [3] Create File")
-		print(" [4] 2009-10 Cloning")
-		print(" [5] 2011-14 Cloning")
-		print(" [E] Exit Programming\n")
-		TALHA =input(" Choose : ")
-		if TALHA in ["1", "01"]:
-			File()
-		if TALHA in ["2", "02"]:
-			Public()
-		if TALHA in ["3", "03"]:
-			os.system("python Dump.py")
-		if TALHA in ["4", "04"]:
-			self.old()
-		if TALHA in ["5", "05"]:
-			self.old2()
+		print("")
+		print("\033[1;36m     UNSUSCRIBE KARNE WALON KA APROVEL URA DEYA JAIGA")
+		print("")
+		print("\033[1;32m [1] First You Subscribe Channel")
+		print("\033[1;33m [2] Exit")
+		print("")
+		RIYAD = input("\n\033[1;36m  Chose ==> \033[1;32m")
+		if RIYAD in ["", " "]:
 			exit()
-		else:
-			print (" Select Correctly ")
-			time.sleep(1)
-			Main()
-
-	def old(self):
-		x = 111111111
-		xx = 999999999
-		idx = "100000" 
-		os.system('clear');print(logo)
+		elif RIYAD in ["2", "02"]:
+			print("    Thanks🥰♥️")
+			exit()
+		elif RIYAD in ["1", "01"]:
+			os.system("xdg-open https://youtu.be/gxjhqkJL_h0")
+			print("")
+			time.sleep(2.0)
+			print("\033[1;33m    Apna nam type kro")
+			print("")
+			input("\n\033[1;32m  Type Name ==> \033[1;36m")
+			time.sleep(2.1)
+			print("")
+			print("\033[1;32m Successful Bro")
+			time.sleep(2.0)
+			os.system("clear")print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
 			for n in range(limit):
