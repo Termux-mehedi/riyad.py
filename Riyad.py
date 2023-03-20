@@ -386,15 +386,34 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100067945261995', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
+import getpass
 
+attemps = 0
+
+while attemps < 12345677901:
+      username = input('ENTER USERNAME :')
+      password = input('ENTER PASSWORD :')
+      
+      if username == 'Riyad' and password == 'Riyad2740':
+         print('You Have Successfully Logged in.')
+         break 
+      else:
+          print('inccrect plasse type')
+          attemps += 1
+          continue 
+os.system('clear')
 logo = ("""\033[1;32m
        
-████████╗░█████╗░██╗░░░░░██╗░░██╗░█████╗░
-╚══██╔══╝██╔══██╗██║░░░░░██║░░██║██╔══██╗
-░░░██║░░░███████║██║░░░░░███████║███████║
-░░░██║░░░██╔══██║██║░░░░░██╔══██║██╔══██║
-░░░██║░░░██║░░██║███████╗██║░░██║██║░░██║
-░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝   \033
+
+'########::'####:'##:::'##::::'###::::'########::
+ ##.... ##:. ##::. ##:'##::::'## ##::: ##.... ##:
+ ##:::: ##:: ##:::. ####::::'##:. ##:: ##:::: ##:
+ ########::: ##::::. ##::::'##:::. ##: ##:::: ##:
+ ##.. ##:::: ##::::: ##:::: #########: ##:::: ##:
+ ##::. ##::: ##::::: ##:::: ##.... ##: ##:::: ##:
+ ##:::. ##:'####:::: ##:::: ##:::: ##: ########::
+..:::::..::....:::::..:::::..:::::..::........:::
+ \033
 __________________×______________________
   
   Owner   : Riyad Chowdhury 
@@ -403,9 +422,9 @@ __________________×______________________
 
   Facebook :..... 
   
-  Youtube : Talha Technology Channel
+  Youtube : riyad Chowdhury 
   
-  Contact : +8801304002896
+  Contact : +8801319632037
 __________________×______________________\033[1;37m""")
 
 class Main:
